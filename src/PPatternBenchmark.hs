@@ -20,8 +20,9 @@ import System.Clock
 import System.Console.CmdArgs
 import System.Random
 
-import qualified Data.Algorithm.PPattern.APerm    as APerm
-import qualified Data.Algorithm.PPattern          as PPattern
+import qualified Data.Algorithm.PPattern.Perm                     as Perm
+import qualified Data.Algorithm.PPattern.Search.ConflictSelection as ConflictSelection
+import qualified Data.Algorithm.PPattern                          as PPattern
 import qualified Utility
 
 data Options = Options { psize  :: Int
@@ -42,33 +43,39 @@ options = Options { psize  = def &= help "The pattern permutation size"
                   &= summary "ppattern-benchmark v0.1.0.0, (C) Laurent Bulteau, Romeo Rizzi, Stéphane Vialette, 2016-1017"
                   &= program "ppattern-benchmark"
 
-doSearch :: (Ord a, Show a) => Int -> Int -> Int -> Int -> APerm.APerm a -> APerm.APerm a -> IO ()
-doSearch m n pk qk p q = do
+doSearch :: Int -> Int -> Int -> Int -> Perm.Perm -> Perm.Perm -> ConflictSelection.Strategy -> IO ()
+doSearch m n pk qk p q conflictSelectionStrategy = do
   start     <- getTime Monotonic
-  embedding <- evaluate (PPattern.search p q)
+  embedding <- evaluate (PPattern.searchWithConflictSelectionStrategy p q conflictSelectionStrategy)
   end       <- getTime Monotonic
-  putStr $ show m         `mappend`
-           ","            `mappend`
-           show n         `mappend`
-           ","            `mappend`
-           show pk        `mappend`
-           ","            `mappend`
-           show qk        `mappend`
-           ",\""          `mappend`
-           show p         `mappend`
-           "\",\""        `mappend`
-           show q         `mappend`
-           "\","          `mappend`
-           "\""           `mappend`
-           show embedding `mappend`
+  putStr $ show m                         `mappend`
+           ","                            `mappend`
+           show n                         `mappend`
+           ","                            `mappend`
+           show pk                        `mappend`
+           ","                            `mappend`
+           show qk                        `mappend`
+           ",\""                          `mappend`
+           show p                         `mappend`
+           "\",\""                        `mappend`
+           show q                         `mappend`
+           "\","                          `mappend`
+           "\""                           `mappend`
+           show embedding                 `mappend`
+           "\","                          `mappend`
+           "\""                           `mappend`
+           show conflictSelectionStrategy `mappend`
            "\","
   fprint (timeSpecs % "\n") start end
 
-search :: (Ord a, Show a) => Int -> Int -> Int -> Int -> APerm.APerm a -> APerm.APerm a -> IO ()
+search :: Int -> Int -> Int -> Int -> Perm.Perm -> Perm.Perm -> IO ()
 search m n pk qk p q = do
-  -- doSearch m n pk qk p q Strategy.leftmostOrderConflictFirst "leftmost order conflict first"
-  -- doSearch m n pk qk p q Strategy.leftmostValueConflictFirst "leftmost value conflict first"
-  doSearch m n pk qk p q
+  doSearch m n pk qk p q ConflictSelection.LeftmostConflictFirst
+  doSearch m n pk qk p q ConflictSelection.LeftmostHorizontalConflictFirst
+  doSearch m n pk qk p q ConflictSelection.LeftmostVerticalConflictFirst
+  doSearch m n pk qk p q ConflictSelection.RightmostConflictFirst
+  doSearch m n pk qk p q ConflictSelection.RightmostHorizontalConflictFirst
+  doSearch m n pk qk p q ConflictSelection.RightmostVerticalConflictFirst
 
 go :: Options -> IO ()
 go opts = search m n pk qk p q

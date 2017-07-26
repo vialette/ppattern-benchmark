@@ -5,7 +5,7 @@ where
   import qualified Data.Foldable as Foldable
   import qualified System.Random
 
-  import qualified Data.Algorithm.PPattern.APerm as APerm
+  import qualified Data.Algorithm.PPattern.Perm as Perm
 
   import qualified Random
   import qualified IntPartition
@@ -30,9 +30,9 @@ where
   --   It returns a random permutation of length 'n' that is the union of 'k'
   --   increasings sequences, together with a new generatoRandom.
   -- -}
-  randKIncreasing :: System.Random.RandomGen g => Int -> Int -> g -> (APerm.APerm Int, g)
+  randKIncreasing :: System.Random.RandomGen g => Int -> Int -> g -> (Perm.Perm, g)
   randKIncreasing n k g
-    | k > n     = (APerm.mk [], g)
+    | k > n     = (Perm.empty, g)
     | otherwise = (p, g''')
     where
       -- rand int partition
@@ -44,4 +44,4 @@ where
       (xs, g''') = Random.randShuffle partitionAsIncreasingLists g''
 
       -- make permutation
-      p = APerm.mk xs
+      p = Perm.mk xs
