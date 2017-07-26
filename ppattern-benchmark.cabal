@@ -1,0 +1,29 @@
+Name:                ppattern-benchmark
+Version:             0.1.0.0
+-- synopsis:
+-- description:
+License:             MIT
+License-File:        LICENSE
+Author:              Laurent Bulteau, Romeo Rizzi, Stéphane Vialette
+Maintainer:          vialette@gmail.com
+-- copyright:
+Category:            Math
+Build-Type:          Simple
+Extra-Source-Files:  README.md
+Cabal-Version:       >=1.22
+
+Executable ppattern-benchmark
+  Main-Is: PPatternBenchmark.hs
+  Hs-Source-Dirs: src
+  ghc-options: -Wall -Werror -O2
+  Default-Language: Haskell2010
+  Build-Depends:
+    base >= 4.8,
+    containers >= 0.5 && < 0.6,
+    random >=1.1,
+    random-shuffle >= 0.0,
+    utility-ht >= 0.0.12,
+    cmdargs >= 0.10.4,
+    clock >= 0.7,
+    formatting >= 6.2,
+    ppattern >= 0.1
