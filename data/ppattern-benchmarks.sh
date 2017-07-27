@@ -3,11 +3,6 @@
 # number of samples
 N=10
 
-# q permutation
-Q=250
-QSPLITMAX=8
-QSPLITSTEP=2
-
 # p permutation
 PMIN=8
 PMAX=24
@@ -16,11 +11,16 @@ PSPLITMIN=2
 PSPLITMAX=8
 PSPLITSTEP=2
 
+# q permutation
+Q=250
+QSPLITMAX=$PSPLITMAX
+QSPLITSTEP=2
+
 # generate
 for ((P = $PMIN; P <= $PMAX ; P+=$PSTEP)); do
   for ((PSPLIT = $PSPLITMIN; PSPLIT <= $PSPLITMAX ; PSPLIT+=$PSPLITSTEP)); do
-    # for ((QSPLIT = $PSPLIT; QSPLIT <= $QSPLITMAX ; QSPLIT+=$QSPLITSTEP)); do
-    for ((QSPLIT = $PSPLIT; QSPLIT <= $PSPLIT ; QSPLIT+=$QSPLITSTEP)); do
+    for ((QSPLIT = $PSPLIT; QSPLIT <= $QSPLITMAX ; QSPLIT+=$QSPLITSTEP)); do
+    # for ((QSPLIT = $PSPLIT; QSPLIT <= $PSPLIT ; QSPLIT+=$QSPLITSTEP)); do
 
       # output csv file
       CSV=ppattern-benchmark-psize-${P}-qsize-${Q}-psplit-${PSPLIT}-qsplit-${QSPLIT}.csv
