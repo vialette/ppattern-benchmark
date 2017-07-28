@@ -71,11 +71,11 @@ doSearch m n pk qk p q conflictSelectionStrategy = do
 search :: Int -> Int -> Int -> Int -> Perm.Perm -> Perm.Perm -> IO ()
 search m n pk qk p q = do
   doSearch m n pk qk p q ConflictSelection.LeftmostConflictFirst
-  -- doSearch m n pk qk p q ConflictSelection.LeftmostHorizontalConflictFirst
-  -- doSearch m n pk qk p q ConflictSelection.LeftmostVerticalConflictFirst
+  doSearch m n pk qk p q ConflictSelection.LeftmostHorizontalConflictFirst
+  doSearch m n pk qk p q ConflictSelection.LeftmostVerticalConflictFirst
   doSearch m n pk qk p q ConflictSelection.RightmostConflictFirst
-  -- doSearch m n pk qk p q ConflictSelection.RightmostHorizontalConflictFirst
-  -- doSearch m n pk qk p q ConflictSelection.RightmostVerticalConflictFirst
+  doSearch m n pk qk p q ConflictSelection.RightmostHorizontalConflictFirst
+  doSearch m n pk qk p q ConflictSelection.RightmostVerticalConflictFirst
 
 go :: Options -> IO ()
 go opts = search m n pk qk p q
