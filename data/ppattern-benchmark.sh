@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # number of samples
-N=1
+N=10
 
 # p permutation
 PMIN=8
