@@ -10703,3 +10703,1572 @@ ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=25247
 
 RUN: #6 - ITERATION: #3 - 11:03:29
 ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=30191
+
+RUN: #6 - ITERATION: #4 - 11:03:31
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=30021
+
+RUN: #6 - ITERATION: #5 - 11:03:31
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=14867
+
+RUN: #6 - ITERATION: #6 - 11:03:33
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=31958
+
+RUN: #6 - ITERATION: #7 - 11:03:33
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=8516
+
+RUN: #6 - ITERATION: #8 - 11:03:33
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=7040
+
+RUN: #6 - ITERATION: #9 - 11:03:36
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=6697
+
+RUN: #6 - ITERATION: #10 - 11:03:36
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=8 --seed=18568
+
+RUN: #6 - ITERATION: #1 - 11:03:37
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=9163
+
+RUN: #6 - ITERATION: #2 - 11:03:37
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=2348
+
+RUN: #6 - ITERATION: #3 - 11:03:37
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=19208
+
+RUN: #6 - ITERATION: #4 - 11:03:45
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=21564
+
+RUN: #6 - ITERATION: #5 - 11:03:47
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=26178
+
+RUN: #6 - ITERATION: #6 - 11:03:47
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=14687
+
+RUN: #6 - ITERATION: #7 - 11:03:53
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=23354
+
+RUN: #6 - ITERATION: #8 - 11:03:53
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=3423
+
+RUN: #6 - ITERATION: #9 - 11:03:55
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=11599
+
+RUN: #6 - ITERATION: #10 - 11:03:55
+ppattern-benchmark --psize=20 --qsize=200 --psplit=8 --qsplit=10 --seed=21295
+
+RUN: #6 - ITERATION: #1 - 11:03:55
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=812
+
+RUN: #6 - ITERATION: #2 - 11:05:28
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=2000
+
+RUN: #6 - ITERATION: #3 - 11:05:28
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=1680
+
+RUN: #6 - ITERATION: #4 - 11:05:28
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=10421
+
+RUN: #6 - ITERATION: #5 - 11:05:28
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=11335
+
+RUN: #6 - ITERATION: #6 - 11:05:29
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=15761
+
+RUN: #6 - ITERATION: #7 - 11:06:04
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=13446
+
+RUN: #6 - ITERATION: #8 - 11:06:04
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=9071
+
+RUN: #6 - ITERATION: #9 - 11:06:04
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=29037
+
+RUN: #6 - ITERATION: #10 - 11:06:04
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=10 --seed=24146
+
+RUN: #6 - ITERATION: #1 - 11:06:07
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=14259
+
+RUN: #6 - ITERATION: #2 - 11:06:07
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=29171
+
+RUN: #6 - ITERATION: #3 - 11:06:07
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=13030
+
+RUN: #6 - ITERATION: #4 - 11:06:07
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=19073
+
+RUN: #6 - ITERATION: #5 - 11:06:10
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=4504
+
+RUN: #6 - ITERATION: #6 - 11:06:34
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=15193
+
+RUN: #6 - ITERATION: #7 - 11:06:34
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=2905
+
+RUN: #6 - ITERATION: #8 - 11:07:13
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=9767
+
+RUN: #6 - ITERATION: #9 - 11:07:36
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=30433
+
+RUN: #6 - ITERATION: #10 - 11:07:36
+ppattern-benchmark --psize=20 --qsize=200 --psplit=10 --qsplit=12 --seed=30428
+
+
+
+run 7
+RUN: #7 - ITERATION: #1 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=11736
+
+RUN: #7 - ITERATION: #2 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=27066
+
+RUN: #7 - ITERATION: #3 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=17869
+
+RUN: #7 - ITERATION: #4 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=16236
+
+RUN: #7 - ITERATION: #5 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=23717
+
+RUN: #7 - ITERATION: #6 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=32677
+
+RUN: #7 - ITERATION: #7 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=15513
+
+RUN: #7 - ITERATION: #8 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=31941
+
+RUN: #7 - ITERATION: #9 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=31692
+
+RUN: #7 - ITERATION: #10 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=2 --seed=4560
+
+RUN: #7 - ITERATION: #1 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=9403
+
+RUN: #7 - ITERATION: #2 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=4523
+
+RUN: #7 - ITERATION: #3 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=31274
+
+RUN: #7 - ITERATION: #4 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=4080
+
+RUN: #7 - ITERATION: #5 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=26202
+
+RUN: #7 - ITERATION: #6 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=24302
+
+RUN: #7 - ITERATION: #7 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=27038
+
+RUN: #7 - ITERATION: #8 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=4546
+
+RUN: #7 - ITERATION: #9 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=5081
+
+RUN: #7 - ITERATION: #10 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=2 --qsplit=4 --seed=3029
+
+RUN: #7 - ITERATION: #1 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=24880
+
+RUN: #7 - ITERATION: #2 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=12935
+
+RUN: #7 - ITERATION: #3 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=19579
+
+RUN: #7 - ITERATION: #4 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=15099
+
+RUN: #7 - ITERATION: #5 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=20278
+
+RUN: #7 - ITERATION: #6 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=4089
+
+RUN: #7 - ITERATION: #7 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=24812
+
+RUN: #7 - ITERATION: #8 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=9871
+
+RUN: #7 - ITERATION: #9 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=31838
+
+RUN: #7 - ITERATION: #10 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=4 --seed=12963
+
+RUN: #7 - ITERATION: #1 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=9812
+
+RUN: #7 - ITERATION: #2 - 11:07:43
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=1224
+
+RUN: #7 - ITERATION: #3 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=9612
+
+RUN: #7 - ITERATION: #4 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=490
+
+RUN: #7 - ITERATION: #5 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=30660
+
+RUN: #7 - ITERATION: #6 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=32079
+
+RUN: #7 - ITERATION: #7 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=15031
+
+RUN: #7 - ITERATION: #8 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=20453
+
+RUN: #7 - ITERATION: #9 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=30332
+
+RUN: #7 - ITERATION: #10 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=4 --qsplit=6 --seed=28118
+
+RUN: #7 - ITERATION: #1 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=13884
+
+RUN: #7 - ITERATION: #2 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=15959
+
+RUN: #7 - ITERATION: #3 - 11:07:44
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=582
+
+RUN: #7 - ITERATION: #4 - 11:07:45
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=25802
+
+RUN: #7 - ITERATION: #5 - 11:07:45
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=11370
+
+RUN: #7 - ITERATION: #6 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=11337
+
+RUN: #7 - ITERATION: #7 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=3785
+
+RUN: #7 - ITERATION: #8 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=3264
+
+RUN: #7 - ITERATION: #9 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=16041
+
+RUN: #7 - ITERATION: #10 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=6 --seed=28275
+
+RUN: #7 - ITERATION: #1 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=29694
+
+RUN: #7 - ITERATION: #2 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=32411
+
+RUN: #7 - ITERATION: #3 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=4147
+
+RUN: #7 - ITERATION: #4 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=23340
+
+RUN: #7 - ITERATION: #5 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=29385
+
+RUN: #7 - ITERATION: #6 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=7647
+
+RUN: #7 - ITERATION: #7 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=21679
+
+RUN: #7 - ITERATION: #8 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=26537
+
+RUN: #7 - ITERATION: #9 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=15579
+
+RUN: #7 - ITERATION: #10 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=6 --qsplit=8 --seed=30532
+
+RUN: #7 - ITERATION: #1 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=14339
+
+RUN: #7 - ITERATION: #2 - 11:07:47
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=27798
+
+RUN: #7 - ITERATION: #3 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=13702
+
+RUN: #7 - ITERATION: #4 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=6021
+
+RUN: #7 - ITERATION: #5 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=29099
+
+RUN: #7 - ITERATION: #6 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=26871
+
+RUN: #7 - ITERATION: #7 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=23216
+
+RUN: #7 - ITERATION: #8 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=4792
+
+RUN: #7 - ITERATION: #9 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=7767
+
+RUN: #7 - ITERATION: #10 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=8 --seed=13615
+
+RUN: #7 - ITERATION: #1 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=17804
+
+RUN: #7 - ITERATION: #2 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=15393
+
+RUN: #7 - ITERATION: #3 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=21949
+
+RUN: #7 - ITERATION: #4 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=17350
+
+RUN: #7 - ITERATION: #5 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=11057
+
+RUN: #7 - ITERATION: #6 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=17661
+
+RUN: #7 - ITERATION: #7 - 11:07:48
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=4012
+
+RUN: #7 - ITERATION: #8 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=2118
+
+RUN: #7 - ITERATION: #9 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=23043
+
+RUN: #7 - ITERATION: #10 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=8 --qsplit=10 --seed=13088
+
+RUN: #7 - ITERATION: #1 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=11642
+
+RUN: #7 - ITERATION: #2 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=26930
+
+RUN: #7 - ITERATION: #3 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=11222
+
+RUN: #7 - ITERATION: #4 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=3064
+
+RUN: #7 - ITERATION: #5 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=2555
+
+RUN: #7 - ITERATION: #6 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=27675
+
+RUN: #7 - ITERATION: #7 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=32718
+
+RUN: #7 - ITERATION: #8 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=2587
+
+RUN: #7 - ITERATION: #9 - 11:07:49
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=20072
+
+RUN: #7 - ITERATION: #10 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=10 --seed=14631
+
+RUN: #7 - ITERATION: #1 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=31803
+
+RUN: #7 - ITERATION: #2 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=19755
+
+RUN: #7 - ITERATION: #3 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=6132
+
+RUN: #7 - ITERATION: #4 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=19312
+
+RUN: #7 - ITERATION: #5 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=19629
+
+RUN: #7 - ITERATION: #6 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=15902
+
+RUN: #7 - ITERATION: #7 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=25567
+
+RUN: #7 - ITERATION: #8 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=8494
+
+RUN: #7 - ITERATION: #9 - 11:07:50
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=30124
+
+RUN: #7 - ITERATION: #10 - 11:08:02
+ppattern-benchmark --psize=10 --qsize=200 --psplit=10 --qsplit=12 --seed=10439
+
+RUN: #7 - ITERATION: #1 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=27896
+
+RUN: #7 - ITERATION: #2 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=19562
+
+RUN: #7 - ITERATION: #3 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=25059
+
+RUN: #7 - ITERATION: #4 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=14947
+
+RUN: #7 - ITERATION: #5 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=26544
+
+RUN: #7 - ITERATION: #6 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=3713
+
+RUN: #7 - ITERATION: #7 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=23627
+
+RUN: #7 - ITERATION: #8 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=5579
+
+RUN: #7 - ITERATION: #9 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=32067
+
+RUN: #7 - ITERATION: #10 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=2 --seed=28958
+
+RUN: #7 - ITERATION: #1 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=14733
+
+RUN: #7 - ITERATION: #2 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=10082
+
+RUN: #7 - ITERATION: #3 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=24717
+
+RUN: #7 - ITERATION: #4 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=9888
+
+RUN: #7 - ITERATION: #5 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=29563
+
+RUN: #7 - ITERATION: #6 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=26975
+
+RUN: #7 - ITERATION: #7 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=3008
+
+RUN: #7 - ITERATION: #8 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=11417
+
+RUN: #7 - ITERATION: #9 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=12514
+
+RUN: #7 - ITERATION: #10 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=2 --qsplit=4 --seed=28424
+
+RUN: #7 - ITERATION: #1 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=11876
+
+RUN: #7 - ITERATION: #2 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=248
+
+RUN: #7 - ITERATION: #3 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=27295
+
+RUN: #7 - ITERATION: #4 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=17546
+
+RUN: #7 - ITERATION: #5 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=28639
+
+RUN: #7 - ITERATION: #6 - 11:08:02
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=25766
+
+RUN: #7 - ITERATION: #7 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=4977
+
+RUN: #7 - ITERATION: #8 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=8040
+
+RUN: #7 - ITERATION: #9 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=3429
+
+RUN: #7 - ITERATION: #10 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=4 --seed=5734
+
+RUN: #7 - ITERATION: #1 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=23222
+
+RUN: #7 - ITERATION: #2 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=15545
+
+RUN: #7 - ITERATION: #3 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=13709
+
+RUN: #7 - ITERATION: #4 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=2213
+
+RUN: #7 - ITERATION: #5 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=19485
+
+RUN: #7 - ITERATION: #6 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=22018
+
+RUN: #7 - ITERATION: #7 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=20510
+
+RUN: #7 - ITERATION: #8 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=5191
+
+RUN: #7 - ITERATION: #9 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=6571
+
+RUN: #7 - ITERATION: #10 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=4 --qsplit=6 --seed=32013
+
+RUN: #7 - ITERATION: #1 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=13338
+
+RUN: #7 - ITERATION: #2 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=18222
+
+RUN: #7 - ITERATION: #3 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=15617
+
+RUN: #7 - ITERATION: #4 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=24606
+
+RUN: #7 - ITERATION: #5 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=2495
+
+RUN: #7 - ITERATION: #6 - 11:08:03
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=9019
+
+RUN: #7 - ITERATION: #7 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=9512
+
+RUN: #7 - ITERATION: #8 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=878
+
+RUN: #7 - ITERATION: #9 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=23470
+
+RUN: #7 - ITERATION: #10 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=6 --seed=19111
+
+RUN: #7 - ITERATION: #1 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=17246
+
+RUN: #7 - ITERATION: #2 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=5067
+
+RUN: #7 - ITERATION: #3 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=10975
+
+RUN: #7 - ITERATION: #4 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=19200
+
+RUN: #7 - ITERATION: #5 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=7506
+
+RUN: #7 - ITERATION: #6 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=12476
+
+RUN: #7 - ITERATION: #7 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=19528
+
+RUN: #7 - ITERATION: #8 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=15572
+
+RUN: #7 - ITERATION: #9 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=10811
+
+RUN: #7 - ITERATION: #10 - 11:08:04
+ppattern-benchmark --psize=12 --qsize=200 --psplit=6 --qsplit=8 --seed=12445
+
+RUN: #7 - ITERATION: #1 - 11:08:06
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=22222
+
+RUN: #7 - ITERATION: #2 - 11:08:06
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=12181
+
+RUN: #7 - ITERATION: #3 - 11:08:09
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=3647
+
+RUN: #7 - ITERATION: #4 - 11:08:09
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=30449
+
+RUN: #7 - ITERATION: #5 - 11:08:09
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=1338
+
+RUN: #7 - ITERATION: #6 - 11:08:09
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=31006
+
+RUN: #7 - ITERATION: #7 - 11:08:09
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=23361
+
+RUN: #7 - ITERATION: #8 - 11:08:10
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=24309
+
+RUN: #7 - ITERATION: #9 - 11:08:11
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=28062
+
+RUN: #7 - ITERATION: #10 - 11:08:11
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=8 --seed=25540
+
+RUN: #7 - ITERATION: #1 - 11:08:11
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=8523
+
+RUN: #7 - ITERATION: #2 - 11:08:11
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=31532
+
+RUN: #7 - ITERATION: #3 - 11:08:11
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=17128
+
+RUN: #7 - ITERATION: #4 - 11:08:12
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=25357
+
+RUN: #7 - ITERATION: #5 - 11:08:12
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=16769
+
+RUN: #7 - ITERATION: #6 - 11:08:12
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=9128
+
+RUN: #7 - ITERATION: #7 - 11:08:12
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=9197
+
+RUN: #7 - ITERATION: #8 - 11:08:12
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=23015
+
+RUN: #7 - ITERATION: #9 - 11:08:12
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=27499
+
+RUN: #7 - ITERATION: #10 - 11:08:12
+ppattern-benchmark --psize=12 --qsize=200 --psplit=8 --qsplit=10 --seed=6264
+
+RUN: #7 - ITERATION: #1 - 11:08:12
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=5545
+
+RUN: #7 - ITERATION: #2 - 11:08:18
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=23584
+
+RUN: #7 - ITERATION: #3 - 11:08:18
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=28164
+
+RUN: #7 - ITERATION: #4 - 11:08:18
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=31778
+
+RUN: #7 - ITERATION: #5 - 11:08:18
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=31014
+
+RUN: #7 - ITERATION: #6 - 11:08:18
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=23642
+
+RUN: #7 - ITERATION: #7 - 11:08:18
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=22510
+
+RUN: #7 - ITERATION: #8 - 11:08:18
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=2607
+
+RUN: #7 - ITERATION: #9 - 11:08:19
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=13584
+
+RUN: #7 - ITERATION: #10 - 11:08:19
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=10 --seed=23368
+
+RUN: #7 - ITERATION: #1 - 11:08:19
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=362
+
+RUN: #7 - ITERATION: #2 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=5360
+
+RUN: #7 - ITERATION: #3 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=14961
+
+RUN: #7 - ITERATION: #4 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=9829
+
+RUN: #7 - ITERATION: #5 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=27160
+
+RUN: #7 - ITERATION: #6 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=1941
+
+RUN: #7 - ITERATION: #7 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=515
+
+RUN: #7 - ITERATION: #8 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=15956
+
+RUN: #7 - ITERATION: #9 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=18898
+
+RUN: #7 - ITERATION: #10 - 11:08:20
+ppattern-benchmark --psize=12 --qsize=200 --psplit=10 --qsplit=12 --seed=17161
+
+RUN: #7 - ITERATION: #1 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=8934
+
+RUN: #7 - ITERATION: #2 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=27822
+
+RUN: #7 - ITERATION: #3 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=28859
+
+RUN: #7 - ITERATION: #4 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=15020
+
+RUN: #7 - ITERATION: #5 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=14634
+
+RUN: #7 - ITERATION: #6 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=18866
+
+RUN: #7 - ITERATION: #7 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=4416
+
+RUN: #7 - ITERATION: #8 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=19475
+
+RUN: #7 - ITERATION: #9 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=6228
+
+RUN: #7 - ITERATION: #10 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=2 --seed=22682
+
+RUN: #7 - ITERATION: #1 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=7647
+
+RUN: #7 - ITERATION: #2 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=22220
+
+RUN: #7 - ITERATION: #3 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=2998
+
+RUN: #7 - ITERATION: #4 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=9550
+
+RUN: #7 - ITERATION: #5 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=25108
+
+RUN: #7 - ITERATION: #6 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=16742
+
+RUN: #7 - ITERATION: #7 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=13576
+
+RUN: #7 - ITERATION: #8 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=19274
+
+RUN: #7 - ITERATION: #9 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=7556
+
+RUN: #7 - ITERATION: #10 - 11:08:20
+ppattern-benchmark --psize=14 --qsize=200 --psplit=2 --qsplit=4 --seed=27685
+
+RUN: #7 - ITERATION: #1 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=5002
+
+RUN: #7 - ITERATION: #2 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=4288
+
+RUN: #7 - ITERATION: #3 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=2489
+
+RUN: #7 - ITERATION: #4 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=29884
+
+RUN: #7 - ITERATION: #5 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=9617
+
+RUN: #7 - ITERATION: #6 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=7880
+
+RUN: #7 - ITERATION: #7 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=2548
+
+RUN: #7 - ITERATION: #8 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=14836
+
+RUN: #7 - ITERATION: #9 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=24814
+
+RUN: #7 - ITERATION: #10 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=4 --seed=18927
+
+RUN: #7 - ITERATION: #1 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=14497
+
+RUN: #7 - ITERATION: #2 - 11:08:21
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=5992
+
+RUN: #7 - ITERATION: #3 - 11:08:22
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=25608
+
+RUN: #7 - ITERATION: #4 - 11:08:22
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=8716
+
+RUN: #7 - ITERATION: #5 - 11:08:22
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=24889
+
+RUN: #7 - ITERATION: #6 - 11:08:22
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=2461
+
+RUN: #7 - ITERATION: #7 - 11:08:22
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=19258
+
+RUN: #7 - ITERATION: #8 - 11:08:22
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=6699
+
+RUN: #7 - ITERATION: #9 - 11:08:22
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=18176
+
+RUN: #7 - ITERATION: #10 - 11:08:22
+ppattern-benchmark --psize=14 --qsize=200 --psplit=4 --qsplit=6 --seed=151
+
+RUN: #7 - ITERATION: #1 - 11:08:26
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=31272
+
+RUN: #7 - ITERATION: #2 - 11:08:26
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=31287
+
+RUN: #7 - ITERATION: #3 - 11:08:26
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=25966
+
+RUN: #7 - ITERATION: #4 - 11:08:26
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=28294
+
+RUN: #7 - ITERATION: #5 - 11:08:26
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=16440
+
+RUN: #7 - ITERATION: #6 - 11:08:26
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=20682
+
+RUN: #7 - ITERATION: #7 - 11:08:26
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=17060
+
+RUN: #7 - ITERATION: #8 - 11:08:26
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=25862
+
+RUN: #7 - ITERATION: #9 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=3364
+
+RUN: #7 - ITERATION: #10 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=6 --seed=23129
+
+RUN: #7 - ITERATION: #1 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=20290
+
+RUN: #7 - ITERATION: #2 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=17637
+
+RUN: #7 - ITERATION: #3 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=15572
+
+RUN: #7 - ITERATION: #4 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=9419
+
+RUN: #7 - ITERATION: #5 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=12867
+
+RUN: #7 - ITERATION: #6 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=8273
+
+RUN: #7 - ITERATION: #7 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=26831
+
+RUN: #7 - ITERATION: #8 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=8216
+
+RUN: #7 - ITERATION: #9 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=13722
+
+RUN: #7 - ITERATION: #10 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=6 --qsplit=8 --seed=22370
+
+RUN: #7 - ITERATION: #1 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=2246
+
+RUN: #7 - ITERATION: #2 - 11:08:27
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=16123
+
+RUN: #7 - ITERATION: #3 - 11:08:28
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=7498
+
+RUN: #7 - ITERATION: #4 - 11:08:29
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=6787
+
+RUN: #7 - ITERATION: #5 - 11:08:29
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=12693
+
+RUN: #7 - ITERATION: #6 - 11:08:29
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=25566
+
+RUN: #7 - ITERATION: #7 - 11:08:30
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=9990
+
+RUN: #7 - ITERATION: #8 - 11:08:30
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=10910
+
+RUN: #7 - ITERATION: #9 - 11:08:30
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=18389
+
+RUN: #7 - ITERATION: #10 - 11:08:30
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=8 --seed=16806
+
+RUN: #7 - ITERATION: #1 - 11:08:31
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=16148
+
+RUN: #7 - ITERATION: #2 - 11:08:33
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=3294
+
+RUN: #7 - ITERATION: #3 - 11:08:33
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=28924
+
+RUN: #7 - ITERATION: #4 - 11:08:33
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=23768
+
+RUN: #7 - ITERATION: #5 - 11:08:34
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=12742
+
+RUN: #7 - ITERATION: #6 - 11:08:34
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=6685
+
+RUN: #7 - ITERATION: #7 - 11:08:34
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=10172
+
+RUN: #7 - ITERATION: #8 - 11:08:34
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=28364
+
+RUN: #7 - ITERATION: #9 - 11:08:34
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=26227
+
+RUN: #7 - ITERATION: #10 - 11:08:34
+ppattern-benchmark --psize=14 --qsize=200 --psplit=8 --qsplit=10 --seed=24938
+
+RUN: #7 - ITERATION: #1 - 11:08:36
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=8171
+
+RUN: #7 - ITERATION: #2 - 11:08:36
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=21052
+
+RUN: #7 - ITERATION: #3 - 11:08:38
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=557
+
+RUN: #7 - ITERATION: #4 - 11:08:39
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=6327
+
+RUN: #7 - ITERATION: #5 - 11:08:39
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=16455
+
+RUN: #7 - ITERATION: #6 - 11:08:39
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=13638
+
+RUN: #7 - ITERATION: #7 - 11:08:39
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=17242
+
+RUN: #7 - ITERATION: #8 - 11:08:41
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=135
+
+RUN: #7 - ITERATION: #9 - 11:08:41
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=21121
+
+RUN: #7 - ITERATION: #10 - 11:08:41
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=10 --seed=28400
+
+RUN: #7 - ITERATION: #1 - 11:08:41
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=8622
+
+RUN: #7 - ITERATION: #2 - 11:08:41
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=21783
+
+RUN: #7 - ITERATION: #3 - 11:08:42
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=14046
+
+RUN: #7 - ITERATION: #4 - 11:08:42
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=21288
+
+RUN: #7 - ITERATION: #5 - 11:08:43
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=7889
+
+RUN: #7 - ITERATION: #6 - 11:08:43
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=22020
+
+RUN: #7 - ITERATION: #7 - 11:08:43
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=20762
+
+RUN: #7 - ITERATION: #8 - 11:08:43
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=14348
+
+RUN: #7 - ITERATION: #9 - 11:09:09
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=30127
+
+RUN: #7 - ITERATION: #10 - 11:09:09
+ppattern-benchmark --psize=14 --qsize=200 --psplit=10 --qsplit=12 --seed=30584
+
+RUN: #7 - ITERATION: #1 - 11:09:09
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=12631
+
+RUN: #7 - ITERATION: #2 - 11:09:09
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=28347
+
+RUN: #7 - ITERATION: #3 - 11:09:09
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=24681
+
+RUN: #7 - ITERATION: #4 - 11:09:09
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=21509
+
+RUN: #7 - ITERATION: #5 - 11:09:09
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=18487
+
+RUN: #7 - ITERATION: #6 - 11:09:09
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=19456
+
+RUN: #7 - ITERATION: #7 - 11:09:09
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=15852
+
+RUN: #7 - ITERATION: #8 - 11:09:09
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=39
+
+RUN: #7 - ITERATION: #9 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=16068
+
+RUN: #7 - ITERATION: #10 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=2 --seed=31126
+
+RUN: #7 - ITERATION: #1 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=1068
+
+RUN: #7 - ITERATION: #2 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=7626
+
+RUN: #7 - ITERATION: #3 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=27690
+
+RUN: #7 - ITERATION: #4 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=25349
+
+RUN: #7 - ITERATION: #5 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=9653
+
+RUN: #7 - ITERATION: #6 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=23589
+
+RUN: #7 - ITERATION: #7 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=13765
+
+RUN: #7 - ITERATION: #8 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=19089
+
+RUN: #7 - ITERATION: #9 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=19875
+
+RUN: #7 - ITERATION: #10 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=2 --qsplit=4 --seed=21663
+
+RUN: #7 - ITERATION: #1 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=24324
+
+RUN: #7 - ITERATION: #2 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=20100
+
+RUN: #7 - ITERATION: #3 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=4678
+
+RUN: #7 - ITERATION: #4 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=30118
+
+RUN: #7 - ITERATION: #5 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=14878
+
+RUN: #7 - ITERATION: #6 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=14497
+
+RUN: #7 - ITERATION: #7 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=32171
+
+RUN: #7 - ITERATION: #8 - 11:09:10
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=10245
+
+RUN: #7 - ITERATION: #9 - 11:09:11
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=8324
+
+RUN: #7 - ITERATION: #10 - 11:09:11
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=4 --seed=3944
+
+RUN: #7 - ITERATION: #1 - 11:09:11
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=7184
+
+RUN: #7 - ITERATION: #2 - 11:09:11
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=2893
+
+RUN: #7 - ITERATION: #3 - 11:09:11
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=17503
+
+RUN: #7 - ITERATION: #4 - 11:09:11
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=5321
+
+RUN: #7 - ITERATION: #5 - 11:09:12
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=17084
+
+RUN: #7 - ITERATION: #6 - 11:09:12
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=27016
+
+RUN: #7 - ITERATION: #7 - 11:09:12
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=636
+
+RUN: #7 - ITERATION: #8 - 11:09:12
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=31031
+
+RUN: #7 - ITERATION: #9 - 11:09:12
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=22996
+
+RUN: #7 - ITERATION: #10 - 11:09:12
+ppattern-benchmark --psize=16 --qsize=200 --psplit=4 --qsplit=6 --seed=9013
+
+RUN: #7 - ITERATION: #1 - 11:09:12
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=3108
+
+RUN: #7 - ITERATION: #2 - 11:09:13
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=15180
+
+RUN: #7 - ITERATION: #3 - 11:09:13
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=20292
+
+RUN: #7 - ITERATION: #4 - 11:09:13
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=10514
+
+RUN: #7 - ITERATION: #5 - 11:09:13
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=32471
+
+RUN: #7 - ITERATION: #6 - 11:09:13
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=10107
+
+RUN: #7 - ITERATION: #7 - 11:09:13
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=16010
+
+RUN: #7 - ITERATION: #8 - 11:09:13
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=29841
+
+RUN: #7 - ITERATION: #9 - 11:09:13
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=9815
+
+RUN: #7 - ITERATION: #10 - 11:09:14
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=6 --seed=20259
+
+RUN: #7 - ITERATION: #1 - 11:09:14
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=17456
+
+RUN: #7 - ITERATION: #2 - 11:09:14
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=31610
+
+RUN: #7 - ITERATION: #3 - 11:09:15
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=16015
+
+RUN: #7 - ITERATION: #4 - 11:09:15
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=30566
+
+RUN: #7 - ITERATION: #5 - 11:09:17
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=27105
+
+RUN: #7 - ITERATION: #6 - 11:09:17
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=2615
+
+RUN: #7 - ITERATION: #7 - 11:09:18
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=17343
+
+RUN: #7 - ITERATION: #8 - 11:09:18
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=27420
+
+RUN: #7 - ITERATION: #9 - 11:09:18
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=8677
+
+RUN: #7 - ITERATION: #10 - 11:09:18
+ppattern-benchmark --psize=16 --qsize=200 --psplit=6 --qsplit=8 --seed=30444
+
+RUN: #7 - ITERATION: #1 - 11:09:18
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=11941
+
+RUN: #7 - ITERATION: #2 - 11:09:18
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=10195
+
+RUN: #7 - ITERATION: #3 - 11:09:18
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=19100
+
+RUN: #7 - ITERATION: #4 - 11:09:21
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=28278
+
+RUN: #7 - ITERATION: #5 - 11:09:22
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=25571
+
+RUN: #7 - ITERATION: #6 - 11:09:22
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=6936
+
+RUN: #7 - ITERATION: #7 - 11:09:22
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=5815
+
+RUN: #7 - ITERATION: #8 - 11:09:26
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=6577
+
+RUN: #7 - ITERATION: #9 - 11:09:26
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=4402
+
+RUN: #7 - ITERATION: #10 - 11:09:26
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=8 --seed=5595
+
+RUN: #7 - ITERATION: #1 - 11:09:26
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=12740
+
+RUN: #7 - ITERATION: #2 - 11:09:30
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=28335
+
+RUN: #7 - ITERATION: #3 - 11:09:30
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=29702
+
+RUN: #7 - ITERATION: #4 - 11:09:30
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=29650
+
+RUN: #7 - ITERATION: #5 - 11:09:32
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=9718
+
+RUN: #7 - ITERATION: #6 - 11:09:32
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=31704
+
+RUN: #7 - ITERATION: #7 - 11:10:03
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=28135
+
+RUN: #7 - ITERATION: #8 - 11:10:04
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=4342
+
+RUN: #7 - ITERATION: #9 - 11:10:04
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=9579
+
+RUN: #7 - ITERATION: #10 - 11:10:04
+ppattern-benchmark --psize=16 --qsize=200 --psplit=8 --qsplit=10 --seed=19517
+
+RUN: #7 - ITERATION: #1 - 11:10:20
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=5910
+
+RUN: #7 - ITERATION: #2 - 11:10:21
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=20421
+
+RUN: #7 - ITERATION: #3 - 11:10:23
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=13091
+
+RUN: #7 - ITERATION: #4 - 11:10:24
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=1942
+
+RUN: #7 - ITERATION: #5 - 11:10:24
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=16127
+
+RUN: #7 - ITERATION: #6 - 11:10:24
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=8009
+
+RUN: #7 - ITERATION: #7 - 11:10:24
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=10405
+
+RUN: #7 - ITERATION: #8 - 11:10:25
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=7420
+
+RUN: #7 - ITERATION: #9 - 11:10:25
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=2508
+
+RUN: #7 - ITERATION: #10 - 11:10:25
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=10 --seed=21182
+
+RUN: #7 - ITERATION: #1 - 11:10:25
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=28274
+
+RUN: #7 - ITERATION: #2 - 11:10:28
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=12603
+
+RUN: #7 - ITERATION: #3 - 11:10:28
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=21404
+
+RUN: #7 - ITERATION: #4 - 11:10:34
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=26538
+
+RUN: #7 - ITERATION: #5 - 11:13:14
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=31924
+
+RUN: #7 - ITERATION: #6 - 11:13:14
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=20454
+
+RUN: #7 - ITERATION: #7 - 11:13:14
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=22885
+
+RUN: #7 - ITERATION: #8 - 11:13:23
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=12227
+
+RUN: #7 - ITERATION: #9 - 11:13:23
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=28534
+
+RUN: #7 - ITERATION: #10 - 11:13:23
+ppattern-benchmark --psize=16 --qsize=200 --psplit=10 --qsplit=12 --seed=25115
+
+RUN: #7 - ITERATION: #1 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=10607
+
+RUN: #7 - ITERATION: #2 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=30855
+
+RUN: #7 - ITERATION: #3 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=11279
+
+RUN: #7 - ITERATION: #4 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=24007
+
+RUN: #7 - ITERATION: #5 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=4111
+
+RUN: #7 - ITERATION: #6 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=30716
+
+RUN: #7 - ITERATION: #7 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=31151
+
+RUN: #7 - ITERATION: #8 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=31385
+
+RUN: #7 - ITERATION: #9 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=3297
+
+RUN: #7 - ITERATION: #10 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=2 --seed=16417
+
+RUN: #7 - ITERATION: #1 - 11:13:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=23415
+
+RUN: #7 - ITERATION: #2 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=6245
+
+RUN: #7 - ITERATION: #3 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=16461
+
+RUN: #7 - ITERATION: #4 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=10534
+
+RUN: #7 - ITERATION: #5 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=19310
+
+RUN: #7 - ITERATION: #6 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=17859
+
+RUN: #7 - ITERATION: #7 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=12144
+
+RUN: #7 - ITERATION: #8 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=4007
+
+RUN: #7 - ITERATION: #9 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=20820
+
+RUN: #7 - ITERATION: #10 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=2 --qsplit=4 --seed=13962
+
+RUN: #7 - ITERATION: #1 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=18096
+
+RUN: #7 - ITERATION: #2 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=771
+
+RUN: #7 - ITERATION: #3 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=4374
+
+RUN: #7 - ITERATION: #4 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=5331
+
+RUN: #7 - ITERATION: #5 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=26902
+
+RUN: #7 - ITERATION: #6 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=29516
+
+RUN: #7 - ITERATION: #7 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=22104
+
+RUN: #7 - ITERATION: #8 - 11:13:24
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=26251
+
+RUN: #7 - ITERATION: #9 - 11:13:25
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=3346
+
+RUN: #7 - ITERATION: #10 - 11:13:25
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=4 --seed=30343
+
+RUN: #7 - ITERATION: #1 - 11:13:25
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=14772
+
+RUN: #7 - ITERATION: #2 - 11:13:25
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=2098
+
+RUN: #7 - ITERATION: #3 - 11:13:25
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=17664
+
+RUN: #7 - ITERATION: #4 - 11:13:25
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=15883
+
+RUN: #7 - ITERATION: #5 - 11:13:31
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=6217
+
+RUN: #7 - ITERATION: #6 - 11:13:36
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=4706
+
+RUN: #7 - ITERATION: #7 - 11:13:36
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=10965
+
+RUN: #7 - ITERATION: #8 - 11:13:37
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=15875
+
+RUN: #7 - ITERATION: #9 - 11:13:37
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=31215
+
+RUN: #7 - ITERATION: #10 - 11:13:37
+ppattern-benchmark --psize=18 --qsize=200 --psplit=4 --qsplit=6 --seed=5360
+
+RUN: #7 - ITERATION: #1 - 11:13:39
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=22297
+
+RUN: #7 - ITERATION: #2 - 11:13:39
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=26439
+
+RUN: #7 - ITERATION: #3 - 11:13:41
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=5357
+
+RUN: #7 - ITERATION: #4 - 11:14:08
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=9424
+
+RUN: #7 - ITERATION: #5 - 11:14:08
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=9495
+
+RUN: #7 - ITERATION: #6 - 11:14:09
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=19514
+
+RUN: #7 - ITERATION: #7 - 11:14:09
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=7895
+
+RUN: #7 - ITERATION: #8 - 11:14:09
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=25233
+
+RUN: #7 - ITERATION: #9 - 11:14:10
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=28411
+
+RUN: #7 - ITERATION: #10 - 11:14:10
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=6 --seed=26367
+
+RUN: #7 - ITERATION: #1 - 11:14:10
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=18813
+
+RUN: #7 - ITERATION: #2 - 11:14:12
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=27666
+
+RUN: #7 - ITERATION: #3 - 11:14:12
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=12431
+
+RUN: #7 - ITERATION: #4 - 11:14:12
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=15611
+
+RUN: #7 - ITERATION: #5 - 11:14:17
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=11514
+
+RUN: #7 - ITERATION: #6 - 11:14:18
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=4543
+
+RUN: #7 - ITERATION: #7 - 11:14:18
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=24479
+
+RUN: #7 - ITERATION: #8 - 11:14:18
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=29200
+
+RUN: #7 - ITERATION: #9 - 11:14:19
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=14898
+
+RUN: #7 - ITERATION: #10 - 11:14:19
+ppattern-benchmark --psize=18 --qsize=200 --psplit=6 --qsplit=8 --seed=20757
+
+RUN: #7 - ITERATION: #1 - 11:14:19
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=28191
+
+RUN: #7 - ITERATION: #2 - 11:14:19
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=24186
+
+RUN: #7 - ITERATION: #3 - 11:14:20
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=27988
+
+RUN: #7 - ITERATION: #4 - 11:14:21
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=23475
+
+RUN: #7 - ITERATION: #5 - 11:14:21
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=5637
+
+RUN: #7 - ITERATION: #6 - 11:14:21
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=28146
+
+RUN: #7 - ITERATION: #7 - 11:14:21
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=26028
+
+RUN: #7 - ITERATION: #8 - 11:14:23
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=17789
+
+RUN: #7 - ITERATION: #9 - 11:14:26
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=13050
+
+RUN: #7 - ITERATION: #10 - 11:14:57
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=8 --seed=32330
+
+RUN: #7 - ITERATION: #1 - 11:14:57
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=29261
+
+RUN: #7 - ITERATION: #2 - 11:14:57
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=27024
+
+RUN: #7 - ITERATION: #3 - 11:14:57
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=16349
+
+RUN: #7 - ITERATION: #4 - 11:14:59
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=29997
+
+RUN: #7 - ITERATION: #5 - 11:14:59
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=31588
+
+RUN: #7 - ITERATION: #6 - 11:14:59
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=8669
+
+RUN: #7 - ITERATION: #7 - 11:15:00
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=24604
+
+RUN: #7 - ITERATION: #8 - 11:15:01
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=30905
+
+RUN: #7 - ITERATION: #9 - 11:15:06
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=2484
+
+RUN: #7 - ITERATION: #10 - 11:15:13
+ppattern-benchmark --psize=18 --qsize=200 --psplit=8 --qsplit=10 --seed=10820
+
+RUN: #7 - ITERATION: #1 - 11:15:13
+ppattern-benchmark --psize=18 --qsize=200 --psplit=10 --qsplit=10 --seed=2680
+
+RUN: #7 - ITERATION: #2 - 11:15:13
+ppattern-benchmark --psize=18 --qsize=200 --psplit=10 --qsplit=10 --seed=4403
+
+RUN: #7 - ITERATION: #3 - 11:15:13
+ppattern-benchmark --psize=18 --qsize=200 --psplit=10 --qsplit=10 --seed=24171
+
+RUN: #7 - ITERATION: #4 - 11:15:13
+ppattern-benchmark --psize=18 --qsize=200 --psplit=10 --qsplit=10 --seed=2143
+
+RUN: #7 - ITERATION: #5 - 11:15:13
+ppattern-benchmark --psize=18 --qsize=200 --psplit=10 --qsplit=10 --seed=20481
